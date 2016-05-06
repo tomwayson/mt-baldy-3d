@@ -96,13 +96,12 @@ module.exports = function (grunt) {
 		},
 
 		// Deploy doc site to gh-pages
-    // 'gh-pages': {
-    //   options: {
-    //     base: 'docs/build',
-    //     repo: 'https://github.com/Esri/calcite-maps.git'
-    //   },
-    //   src: ['**']
-    // }
+    'gh-pages': {
+      options: {
+        base: 'dist'
+      },
+      src: ['**']
+    }
 
 	});
 	// Default task.
