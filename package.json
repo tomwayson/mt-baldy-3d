@@ -1,0 +1,38 @@
+{
+  "name": "mt-baldy-3d",
+  "version": "0.0.1",
+  "description": "\"Mt Baldy in 3D\"",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomwayson/mt-baldy-3d.git"
+  },
+  "dependencies": {
+    "grunt-cli": "^0.1.13"
+  },
+  "devDependencies": {
+    "calcite-bootstrap": "github:esri/calcite-bootstrap#v0.2.9",
+    "grunt": "^0.4.5",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-contrib-cssmin": "^0.14.0",
+    "grunt-contrib-uglify": "^0.11.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-sass": "^1.1.0",
+    "matchdep": "^1.0.0",
+    "node-sass": "^3.4.2"
+  },
+  "keywords": [
+    "Mt Baldy",
+    "ArcGIS",
+    "JavaScript"
+  ],
+  "author": "Tom Wayson <tom@tomwayson.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomwayson/mt-baldy-3d/issues"
+  },
+  "homepage": "https://github.com/tomwayson/mt-baldy-3d#readme"
+}
